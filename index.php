@@ -45,12 +45,12 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Alessandro <br> Casale Romei</a>
+                <a class="navbar-brand page-scroll col-md-9" href="#page-top">Alessandro Casale Romei</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right nav-right-links">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -64,16 +64,16 @@
                         <a class="page-scroll" href="#about">CONTACT</a>
                     </li>
                     <li>
-                        <a href="#">|</a>
+                        <a href="#" class="display-none_nav">|</a>
                     </li>
                      <li>
-                        <a href="#" class="header-footer-social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="header-footer-social display-none_nav"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
                      <li>
-                        <a href="#" class="header-footer-social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" class="header-footer-social display-none_nav"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                      <li>
-                        <a href="#" class="header-footer-social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" class="header-footer-social display-none_nav"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -87,8 +87,11 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">Hello</div>
-                <div class="intro-lead-in">Hello I am Alessandro Casale Romei. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
-                <a href="#services" class="page-scroll btn btn-xl">Contact</a>
+                <a class="header-brand_mobile page-scroll col-md-12" href="#page-top">Alessandro Casale Romei</a>
+                <div class="intro-lead-in col-md-8">Hello I am <span style="font-weight: bold; color:#c3986c;">Alessandro Casale Romei.</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+                <div class="col-md-12">
+                    <a href="#services" class="page-scroll btn btn-xl hvr-shutter-out-horizontal">Contact</a>
+                </div>
             </div>
         </div>
     </header>
@@ -114,7 +117,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 text-left">
-                    <h2 class="section-heading">Contact</h2>
+                    <h2 class="section-heading contact-heading-align">Contact</h2>
                     <p class="contact-us_footer">If you like me and my work get in touch and tell me about your next project. I'll reply as soon as possible and I hope it will be a real challenge.</p>
                 </div>
             </div>
@@ -144,7 +147,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center" style="text-align: left;">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl hvr-shutter-out-horizontal">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -200,7 +203,7 @@
 
  
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
