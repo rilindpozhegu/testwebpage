@@ -8,6 +8,11 @@
   src: url('../fonts/Gotham Light Regular.otf');
  }
 
+ @font-face {
+  font-family: 'Lucia BT';
+  src: url('../fonts/Lucia BT.ttf');
+ }
+
 body {
   overflow-x: hidden;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,6 +61,7 @@ h6 {
 }
 .bg-light-gray {
   background-color: #eeeeee;
+  padding: 40px !important;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -105,8 +111,8 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  width: 230px;
-  height: 50px;
+  width: 170px;
+  height: 45px;
   color: white;
   background-color: #ff0000;
   border-color: #ff0000;
@@ -114,8 +120,8 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
-  font-size: 18px;
-  padding: 12px 40px;
+  font-size: 12px;
+  padding: 12px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -159,7 +165,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #c3986c;
-  font-family: 'Gotham';
+  font-family: 'Lucia BT';
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -236,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/contact-background.png');
+  background-image: url('../img/header-background.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -261,8 +267,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   text-align: left;
   font-family: 'Gotham';
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 25px;
@@ -286,8 +291,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     text-align: left;
     font-family: 'Gotham';
-    text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 50px;
@@ -318,71 +322,7 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 25px;
-}
-#portfolio .portfolio-item .portfolio-caption h4 {
-  text-transform: none;
-  margin: 0;
-}
-#portfolio .portfolio-item .portfolio-caption p {
-  font-family: 'Gotham';
-  font-style: italic;
-  font-size: 16px;
-  margin: 0;
-}
-#portfolio * {
-  z-index: 2;
-}
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -557,6 +497,7 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  width: 260px;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -630,6 +571,8 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
+  color: white;
+  background-color: #060606;
   padding: 25px 0;
   text-align: center;
 }
@@ -674,80 +617,6 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-.portfolio-modal .modal-dialog {
-  margin: 0;
-  height: 100%;
-  width: auto;
-}
-.portfolio-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
-}
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-.portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
-}
-.portfolio-modal .modal-content ul.list-inline {
-  margin-bottom: 30px;
-  margin-top: 0;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.portfolio-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #222222;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #222222;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
-.portfolio-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
-}
 ::-moz-selection {
   text-shadow: none;
   background: #fed136;
@@ -767,7 +636,7 @@ body {
 }
 
 .aboutme-align{
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px #c3986c;
     padding-bottom: 20px;
     margin-bottom: 28px;
     margin-left: 15px;
@@ -780,4 +649,29 @@ body {
 }
 .about-me h2 p{
   font-family: 'Gotham' !important;
+}
+.about-me h2{
+  color: #c3986c;
+}
+.header-footer-social {
+  width: 30px;
+}
+
+.more-info_footer {
+      margin-top: 25%;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.more-info_footer li{
+  list-style: none;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.53);
+}
+
+.more-ingo-footer-inline {
+  margin-left: 10%;
+}
+.social-footer_logo1 i{
+  color: #c3986c;
+  font-size: 20px;
 }

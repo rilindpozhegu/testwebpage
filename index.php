@@ -62,10 +62,16 @@
                         <a class="page-scroll" href="#about">CONTACT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a href="#">|</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -91,11 +97,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/4.png" class="img-responsive img-circle" alt="">
                     </div>
                 </div>
-                <div class="col-md-8 ">
-                <h2 class="aboutme-align col-md-4 about-me">About me</h2>
+                <div class="col-md-8 about-me">
+                <h2 class="aboutme-align col-md-4 ">About me</h2>
                     <p class="large text-muted about-text_position col-md-10 about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
         </div>
@@ -116,21 +122,21 @@
                         <div class="row">
                                 <div class="col-md-4">
                                     <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
+                                    <p class="help-block"></p>
                                 </div>
                                 <div class="col-md-4">
                                     <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
+                                    <p class="help-block"></p>
                                 </div>
                                 <div class="col-md-4">
                                     <input type="tel" class="form-control" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
+                                    <p class="help-block"></p>
                                 </div>
 
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
+                                    <p class="help-block"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -141,6 +147,25 @@
                         </div>
                     </form>
                 </div>
+                <div class="col-md-4">
+                    <ul class="more-info_footer">
+                        <li><p>Complete Name: Alessandro Cassele Romei</p></li>
+                        <li><p>Email: alessandro@gmail.com</p></li>
+                        <li><p>Phone: 971 23 233 2345</p></li>
+                        <li><p>Home Adress: Great Street, No 6, Dubai</p></li>
+                    </ul>
+                     <ul class="list-inline more-ingo-footer-inline">
+                        <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -149,24 +174,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">Copyright &copy; Emirates Graphics 2016</span>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+                   
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                     <ul class="list-inline social-footer_logo1">
+                        <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                     <li>
+                        <a href="#" class="header-footer-social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
                     </ul>
                 </div>
             </div>
