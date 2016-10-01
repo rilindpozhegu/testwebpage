@@ -55,13 +55,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">HOME</a>
+                        <a class="page-scroll" href="#page-top">HOME</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">ABOUT</a>
+                        <a class="page-scroll" href="#team">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">CONTACT</a>
+                        <a class="page-scroll" href="#contact">CONTACT</a>
                     </li>
                     <li>
                         <a href="#" class="display-none_nav">|</a>
@@ -90,7 +90,7 @@
                 <a class="header-brand_mobile page-scroll col-md-12" href="#page-top">Alessandro Casale Romei</a>
                 <div class="intro-lead-in col-md-8">Hello I am <span style="font-weight: bold; color:#c3986c;">Alessandro Casale Romei.</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
                 <div class="col-md-12">
-                    <a href="#services" class="page-scroll btn btn-xl hvr-shutter-out-horizontal">Contact</a>
+                    <a href="#contact" class="page-scroll btn btn-xl hvr-shutter-out-horizontal">Contact</a>
                 </div>
             </div>
         </div>
@@ -126,21 +126,21 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="tel" class="form-control" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Subject" id="phone" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block"></p>
                                 </div>
 
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block"></p>
                                 </div>
                             </div>
