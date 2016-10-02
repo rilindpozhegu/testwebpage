@@ -116,7 +116,7 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-left">
+                <div class="col-lg-8 text-left padding-top-contact">
                     <h2 class="section-heading contact-heading-align">Contact</h2>
                     <p class="contact-us_footer">If you like me and my work get in touch and tell me about your next project. I'll reply as soon as possible and I hope it will be a real challenge.</p>
                 </div>

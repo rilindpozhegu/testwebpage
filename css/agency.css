@@ -529,7 +529,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #3b3a35;
+  background-color: #060606;
   background-image: url('../img/contact-background.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -750,6 +750,15 @@ body {
     }
     section {
   padding: 0px 0px;
+}
+.padding-top-contact {
+  padding-top: 20px;
+}
+.contact-us_footer {
+  text-align: center;
+}
+.social-footer_logo1 {
+  display: none;
 }
 }
 
